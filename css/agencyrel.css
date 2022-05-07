@@ -1,0 +1,101 @@
+body,html{
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* home session */
+.home{
+    background-image: url("plane-841441_1920.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    background-size: cover;
+}
+.content__home{
+    text-align: left;
+    text-align-last: center;
+    margin-top: 11%;
+    
+}
+.text__home{
+    font-size: 200%;
+}
+.btn__home{
+    border-radius: 20%;
+    padding: 9px;
+    border: 1px solid black;
+    background-color: #c1c2c5;
+    text-decoration: none;
+}
+/* the about session */
+.about__us{
+    height: 50%;
+}
+.txt__about{
+    font-size: 3vh;
+    text-align: justify;
+}
+.boldtxt__about{
+    font-size: 4.3vh;
+}
+/* the article session */
+.img__article{
+    height: 100%;
+    width: 100%;
+}
+.boldtxt__article{
+    font-size: 3.5vh;
+    letter-spacing: 1px;
+}
+.txt__article{
+    letter-spacing: 1.5px;
+}
+/* the announces session */
+.img__announces{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+.announces>.row>.col-sm-4{
+    margin-bottom: 80px;
+}
+/* cantact session */
+footer{
+    background-color: #c1c2c5;
+}
+.cantact{
+    text-align: center;
+    text-decoration: none;
+}
+.facebook , .instagram , .blog{
+    border: none;
+    color: #000000;
+    text-align: center;
+}
+.cantact a:hover{
+    color: #ffffff;
+}
+/* The fixed btn*/
+.fixed__btn{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 20px;
+    text-decoration: none;
+    color: #a3a3a3;
+}
+.btn__rounded a:hover{
+    color: #ffffff;
+}
+.roundedfixed__btn{
+  line-height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  font-size: 2em;
+  font-weight: bold;
+  background-color: #c1c2c5;
+  text-align: center;
+  cursor: pointer;
+}
